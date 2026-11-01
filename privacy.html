@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — ScanCam</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #FAFAFA;
+            color: #1A1A1A;
+            line-height: 1.7;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+        header { margin-bottom: 32px; }
+        .back { color: #0F766E; text-decoration: none; font-weight: 600; }
+        .back:hover { text-decoration: underline; }
+        h1 { font-size: 32px; font-weight: 700; margin: 24px 0 8px; }
+        .meta { color: #999; font-size: 14px; margin-bottom: 32px; }
+        h2 { font-size: 22px; font-weight: 600; margin: 32px 0 12px; color: #0F766E; }
+        p { margin-bottom: 12px; }
+        ul { margin-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; }
+        strong { font-weight: 600; }
+        footer {
+            text-align: center;
+            margin-top: 64px;
+            padding-top: 32px;
+            border-top: 1px solid #E5E5E5;
+            color: #999;
+            font-size: 14px;
+        }
+        footer a { color: #0F766E; text-decoration: none; margin: 0 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back">&larr; Back to ScanCam</a>
+            <h1>Privacy Policy</h1>
+            <p class="meta">Effective date: 1 November 2026</p>
+        </header>
+
+        <p>ScanCam ("we", "our", "the app") is built by a solo developer who cares about your privacy. This policy explains what information the app handles, how it is used, and your rights.</p>
+
+        <h2>Summary</h2>
+        <ul>
+            <li>Your scanned documents, extracted text, and translations stay on your device. They are never uploaded.</li>
+            <li>We do not require an account. We do not collect your name, email, or phone number.</li>
+            <li>Ad networks collect device identifiers to serve ads. You can change your consent anytime.</li>
+            <li>Anonymous diagnostics help us fix crashes. You can turn them off.</li>
+        </ul>
+
+        <h2>Information we do not collect</h2>
+        <ul>
+            <li>Your name, email address, phone number, or any personal identifier.</li>
+            <li>Scanned document images, PDFs, extracted text (OCR), or translations.</li>
+            <li>Your location (precise or approximate from GPS).</li>
+            <li>Contacts, SMS, call logs, calendar, microphone, or photo library.</li>
+            <li>Your browsing history or installed app list.</li>
+        </ul>
+
+        <h2>Information handled on your device only</h2>
+        <p>The following stays on your device and is never transmitted:</p>
+        <ul>
+            <li>Scanned document images and generated PDFs.</li>
+            <li>Text extracted via on-device OCR (Google ML Kit Text Recognition).</li>
+            <li>Translations generated on-device (Google ML Kit Translation).</li>
+            <li>Folders, favorites, and app preferences.</li>
+        </ul>
+
+        <h2>Information collected by third parties</h2>
+        <p>ScanCam uses the following third-party services. Each is governed by its own privacy policy.</p>
+
+        <p><strong>Google AdMob and AppLovin MAX (advertising)</strong></p>
+        <ul>
+            <li>Collect: device identifiers (Android Advertising ID), approximate location derived from IP address, device information (model, OS version), and ad interaction data.</li>
+            <li>Purpose: to serve ads and measure ad performance.</li>
+            <li>Consent: controlled via the UMP (User Messaging Platform) consent form on first launch. You can change your choice anytime in Settings &rarr; Privacy &rarr; Change ad consent.</li>
+            <li>Policies: <a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.applovin.com/privacy/">AppLovin</a>.</li>
+        </ul>
+
+        <p><strong>Google Firebase Analytics and Crashlytics (diagnostics)</strong></p>
+        <ul>
+            <li>Collect: anonymous app usage events (feature counts, screen views, duration), crash reports, device model, OS version. We do not log file names, scan contents, or any user-entered text.</li>
+            <li>Purpose: to understand how the app is used and to fix crashes.</li>
+            <li>Consent: optional. You can disable in Settings &rarr; Privacy &rarr; Share diagnostics.</li>
+            <li>Policy: <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>.</li>
+        </ul>
+
+        <p><strong>Google ML Kit (on-device processing)</strong></p>
+        <ul>
+            <li>OCR, document scanning, and translation run entirely on your device via Google Play Services.</li>
+            <li>Translation models are downloaded from Google's servers on first use of each language. The request contains only the model name; no user content is sent.</li>
+            <li>Policy: <a href="https://developers.google.com/ml-kit/terms">Google ML Kit Terms</a>.</li>
+        </ul>
+
+        <p><strong>Google Play Billing (in-app purchase)</strong></p>
+        <ul>
+            <li>Handles the one-time ad-removal purchase. ScanCam never sees your payment details.</li>
+            <li>Policy: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+        </ul>
+
+        <h2>Permissions the app uses</h2>
+        <ul>
+            <li><strong>Internet and network state</strong>: for ad serving (if consented), diagnostics (if enabled), translation model downloads, and the consent form.</li>
+            <li><strong>Notifications</strong>: to let you know when text extraction finishes on long scans.</li>
+            <li><strong>Foreground service</strong>: to keep text extraction running when the app is in the background.</li>
+        </ul>
+
+        <p>ScanCam does <strong>not</strong> request the camera permission directly. Document scanning uses Google's on-device Document Scanner (part of Google Play Services), which handles camera access itself.</p>
+
+        <h2>Your rights and choices</h2>
+        <ul>
+            <li><strong>Change ad consent</strong>: Settings &rarr; Privacy &rarr; Change ad consent. This changes future ad data collection; previously collected data stays with the ad networks per their retention policies.</li>
+            <li><strong>Disable diagnostics</strong>: Settings &rarr; Privacy &rarr; Share diagnostics. This stops future event collection.</li>
+            <li><strong>Delete your data</strong>: uninstall the app. All on-device data is removed. Ad network and diagnostics data previously collected is retained by those services per their standard policies.</li>
+            <li><strong>Right to information</strong>: for any question about your data, email the address below.</li>
+        </ul>
+
+        <h2>Data retention</h2>
+        <p>On-device data stays until you delete it or uninstall the app. We have no server-side user records; nothing is retained on our side because nothing is collected on our side.</p>
+
+        <p>Third-party data retention is governed by each provider's own policy, linked above.</p>
+
+        <h2>Children's privacy</h2>
+        <p>ScanCam is not directed at children under 18. We do not knowingly collect data from children. If you believe a child has used the app, uninstalling removes all on-device data.</p>
+
+        <h2>International users</h2>
+        <p>ScanCam is available globally. Third-party services (Google, AppLovin) may transfer data across borders per their own policies. The UMP consent form is designed to meet GDPR, UK GDPR, Brazil LGPD, and other regional privacy frameworks.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>We may update this policy as the app evolves. Material changes will be announced in the app. The effective date at the top of this page always reflects the latest version.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy or your data: <a href="mailto:support@scancam.app">support@scancam.app</a>.</p>
+
+        <footer>
+            <p>
+                <a href="index.html">Home</a> ·
+                <a href="terms.html">Terms of Service</a>
+            </p>
+            <p style="margin-top: 12px;">&copy; 2026 ScanCam.</p>
+        </footer>
+    </div>
+</body>
+</html>
